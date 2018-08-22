@@ -1,0 +1,46 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  border: solid gray 0.05em;
+  margin-top: 10px;
+  padding: 0;
+}
+
+.nav-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  min-height: 10vh;
+  background-color: lightblue;
+  border-bottom: solid gray 1px;
+}
+
+.content-container {
+  background-color: lightgray;
+  height: 85vh;
+}
+
+.btn-container {
+  align-self: center;
+}
+
+.btn {
+  border-color: black;
+  margin-right: 10px;
+}
+
+.update-container {
+  align-self: center;
+  color: dimgray;
+  font-weight: bold;
+
+}
+
+h4 {
+  align-self: center;
+  margin-left: 10px;
+  font-weight: bold;
+  font-family: sans-serif;
+}
+
+

@@ -1,0 +1,2 @@
+<label *ngIf="getRoute()==='/settings'"><input type='checkbox' [checked]="city.selected" (change)="checked($event)">{{city.name}}</label>
+<li *ngIf="getRoute()==='/main'">{{city.name + ' ' + city.temp + '&#8451;'}}</li>
